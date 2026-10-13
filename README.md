@@ -1,3 +1,4 @@
+
 # ✦ Life in Dots
 ### A visual exploration of mood, time, and everyday life.
 
@@ -5,6 +6,7 @@
 
 Each dot represents a day, transforming personal mood data into a visual diary. Rather than describing every feeling with words, the project uses colour to create a simple, expressive picture of how moods change over time.
 
+<img width="710" height="433" alt="Screenshot 2026-10-13 at 14 39 36" src="https://github.com/user-attachments/assets/3e714a6e-95b3-4e64-95fc-616d499bf4d5" />
 > *Every day leaves a mark. Every dot tells a story.*
 
 ---
