@@ -1,111 +1,70 @@
+Where Did My Time Go?
+Dear Data 100 — Creative Coding — Processing
+Concept
+Where Did My Time Go? compares measured time with perceived time. Each observation records an activity, how many minutes it actually lasted, and how long it felt. The sketch turns those observations into a radial artwork: one endpoint represents actual duration and the other represents felt duration. The gap between them makes the difference visible.
+Important data note
+time_data.csv contains 100 illustrative example observations, with five rows for each date from 12 October 2026 to 31 October 2026. They are not Ruth's real observations and must not be presented as personally collected data. Replace the example rows with observations you genuinely record before submitting the assignment. Keep the same column headings and 100-row structure.
+Files
+- WhereDidMyTimeGo.pde — Processing sketch.
+- time_data.csv — 100 example observations.
+- README.md — project explanation and run instructions.
+Run it in Processing
+1. Install and open Processing.
+2. Create a sketch folder named WhereDidMyTimeGo.
+3. Save WhereDidMyTimeGo.pde inside that folder.
+4. Copy time_data.csv into the same sketch folder (alongside the .pde file).
+5. Open the sketch and press Run.
+6. Move the mouse over a mark or click a mark to inspect its date, activity, actual duration, felt duration and difference.
+If Processing reports that it cannot find time_data.csv, check that the CSV is inside the sketch folder and that its filename matches exactly.
+Data format
+Column	Meaning
+date	Observation date, in YYYY-MM-DD format
+observation	Unique number from 1 to 100
+activity	Activity observed
+category	Category used to choose a colour
+actual_minutes	Measured duration in minutes
+felt_minutes	Estimated perceived duration in minutes
 
-# ✦ Life in Dots
-### A visual exploration of mood, time, and everyday life.
 
-**Life in Dots** is a creative coding project built with [Processing](https://processing.org/) that explores how everyday emotions can be represented through colour and simple visual forms.
-
-Each dot represents a day, transforming personal mood data into a visual diary. Rather than describing every feeling with words, the project uses colour to create a simple, expressive picture of how moods change over time.
-
-<img width="710" height="433" alt="Screenshot 2026-10-13 at 14 39 36" src="https://github.com/user-attachments/assets/3e714a6e-95b3-4e64-95fc-616d499bf4d5" />
-> *Every day leaves a mark. Every dot tells a story.*
-
----
-
-## 🎨 The Idea
-
-Our moods are not always easy to explain. Some days feel bright, some feel ordinary, and others are harder to describe.
-
-Life in Dots explores a simple question:
-
-**What if we could see our emotions instead of just writing them down?**
-
-By assigning colours to different moods and arranging them across a timeline, the project turns everyday experiences into a small piece of generative art.
-
-## 🌈 The Colour System
-
-Each colour represents a mood category in the visual diary.
-
-| Colour | Mood |
-|:---:|---|
-| 🔴 Red | Red mood category |
-| 🟠 Orange | Orange mood category |
-| 🟢 Green | Green mood category |
-| 🟣 Purple | Purple mood category |
-
-The colours create a visual language that makes patterns and changes in mood easier to notice at a glance.
-
-*The labels can be personalised to reflect the exact meanings assigned to each colour in the sketch.*
-
-## 🖥️ Built With
-
-- **Processing** — creative coding and visual design
-- **Java-based programming** — the language environment used by Processing
-- **Git and GitHub** — version control and project development
-
-## ⚙️ How It Works
-
-1. **Record** — associate a mood category with a day.
-2. **Represent** — use colour to express the mood visually.
-3. **Arrange** — organise the dots to create a visual timeline.
-4. **Reflect** — observe how individual days contribute to the bigger picture.
-
-The project brings together programming fundamentals and visual communication, showing how code can be used to express an idea rather than simply solve a technical problem.
-
-## 🚀 Run the Project
-
-You will need [Processing](https://processing.org/download).
-
-1. Clone this repository:
-
-   ```bash
-   git clone https://github.com/Ruthhilary/life-dots.git
-   ```
-
-2. Open Processing.
-3. Open the `Life in Dots` sketch from the downloaded repository.
-4. Press **Run ▶** to launch the sketch.
-
-If the sketch folder contains supporting files, keep them in their original locations.
-
-## 📚 What I'm Learning
-
-This project is part of my journey into creative coding and programming.
-
-Through developing Life in Dots, I am practising:
-
-- Variables and data representation
-- Using colour and shapes to communicate information
-- Organising code into reusable structures
-- Translating a creative concept into a working program
-- Using GitHub commits to document development over time
-
-The project is an opportunity to connect technical learning with personal expression.
-
-## 🔭 Future Possibilities
-
-Potential directions for further development include:
-
-- **A longer timeline** — visualising moods across weeks and months.
-- **More detailed mood categories** — exploring a wider range of emotions.
-- **Data-driven visualisation** — generating the design from structured mood data.
-- **Interactive exploration** — allowing users to inspect individual days.
-- **Pattern analysis** — identifying recurring changes across the timeline.
-
-These are possible extensions rather than features currently claimed by the project.
-
-## 💭 Reflection
-
-Life in Dots began with a simple idea: representing something personal through code.
-
-It demonstrates how programming can become a creative medium, combining logic, colour, data, and design to communicate an idea in a different way.
-
-The goal is not to reduce emotions to colours, but to explore how visualisation can help us notice and reflect on everyday experiences.
-
----
-
-**Created by [Ruth Hilary Aka-Adou](https://github.com/Ruthhilary)**
-
-*BSc Artificial Intelligence · City St George's, University of London*
-
-[View the repository](https://github.com/Ruthhilary/life-dots) · [Explore Processing](https://processing.org/)
-
+Visual encoding
+- The angle around the centre represents the observation's position in the dataset.
+- The inner endpoint is based on actual duration.
+- The outer endpoint is based on perceived duration.
+- The line between the endpoints represents the difference.
+- Colour represents the activity category.
+- Selecting or hovering over an observation reveals its details.
+The artwork does not claim to measure subjective time objectively. felt_minutes is a personal estimate and should be described as such in the final reflection.
+Creative coding topics used
+This project uses only the relevant topics from the listed course material:
+- Dear Data: a question about everyday life, collected observations and a visual key.
+- Sketches: setup() and draw().
+- Variables: positions, durations, colours and selection state.
+- Decisions: if / else for categories and highlighting.
+- Methods: separate methods for loading, drawing, selection and colour mapping; methods return values such as color and int.
+- Interaction: mouse movement and clicking.
+- Loops & Groups: loops process the observations and draw the artwork.
+- Classes & Objects: each TimeEntry object stores one observation.
+- Data Visualization / Data: a CSV table is loaded and represented visually.
+- Art / Creativity: the radial distortion is a visual metaphor for the difference between clock time and felt time.
+- Computational Thinking: the problem is divided into data loading, mapping, drawing and interaction.
+Images, sound/video and 3D graphics are not used.
+SCAMPER reflection prompts
+Use these prompts to explain your own design decisions; adapt them to what you actually developed.
+- Substitute: Instead of a conventional bar chart, I used radial marks.
+- Combine: I combined measured duration, perceived duration and activity category in one composition.
+- Adapt: I adapted the idea of a clock face to show subjective experience.
+- Modify: I distorted the distance of each endpoint according to duration.
+- Put to another use: I used time-tracking data as material for an artwork rather than a productivity report.
+- Eliminate: I removed a standard timeline and most conventional chart labels from the main artwork.
+- Reverse / Rearrange: I arranged observations around a circle rather than in chronological rows.
+Make these statements accurate to your final version and discuss what worked, what did not, and what you changed.
+GitHub and assessment evidence
+Keep your development evidence honest and regular. Commit the sketch and data on separate days as you make real progress. For example:
+1. Create initial sketch and concept
+2. Add and check first collected observations
+3. Implement TimeEntry class and radial marks
+4. Add interaction and data details
+5. Refine legend and final reflection
+Only make commits when you have actually made those changes. Do not backdate commits or claim example data is personal data.
+Limitations and reflection
+The perceived duration is a subjective estimate. Activities may be remembered imperfectly, and the sample of activities is not a complete record of every minute. The artwork can help reveal differences between measured and felt time, but it cannot explain why each difference occurred.
