@@ -1,5 +1,6 @@
 # ⏳ WHERE DID MY TIME GO?
 ### A Dear Data experiment in clock time, felt time, and the space between them.
+<img width="795" height="242" alt="Screenshot 2026-10-16 at 12 42 36" src="https://github.com/user-attachments/assets/0a0b2e61-e3d7-4ec7-83c7-91fc0ee9f72c" />
 
 <p align="center">
   <strong>100 OBSERVATIONS · 2 DIMENSIONS OF TIME · 1 RADIAL ARTWORK</strong>
