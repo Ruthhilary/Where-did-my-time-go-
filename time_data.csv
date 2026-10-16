@@ -1,0 +1,101 @@
+date,observation,activity,category,actual_minutes,felt_minutes
+2026-10-12,1,Studying,Study,17,45
+2026-10-12,2,Phone scrolling,Phone,19,4
+2026-10-12,3,Travelling,Travel,41,48
+2026-10-12,4,Talking with friends,Social,21,17
+2026-10-12,5,Waiting,Waiting,13,31
+2026-10-13,6,Church / volunteering,Church,40,35
+2026-10-13,7,Eating,Daily,22,19
+2026-10-13,8,Getting ready,Daily,7,28
+2026-10-13,9,Watching videos,Phone,29,22
+2026-10-13,10,Household tasks,Daily,26,20
+2026-10-14,11,Lecture / class,Study,48,65
+2026-10-14,12,Reading,Study,25,34
+2026-10-14,13,Break / rest,Rest,25,28
+2026-10-14,14,Messaging,Phone,17,3
+2026-10-14,15,Walking,Travel,12,20
+2026-10-15,16,Planning,Study,16,30
+2026-10-15,17,Conversation,Social,23,29
+2026-10-15,18,Queueing,Waiting,6,10
+2026-10-15,19,Work on a project,Study,45,46
+2026-10-15,20,Music,Rest,15,15
+2026-10-16,21,Studying,Study,29,65
+2026-10-16,22,Phone scrolling,Phone,14,3
+2026-10-16,23,Travelling,Travel,36,47
+2026-10-16,24,Talking with friends,Social,33,16
+2026-10-16,25,Waiting,Waiting,8,30
+2026-10-17,26,Church / volunteering,Church,52,34
+2026-10-17,27,Eating,Daily,17,18
+2026-10-17,28,Getting ready,Daily,19,27
+2026-10-17,29,Watching videos,Phone,24,21
+2026-10-17,30,Household tasks,Daily,21,40
+2026-10-18,31,Lecture / class,Study,43,64
+2026-10-18,32,Reading,Study,20,33
+2026-10-18,33,Break / rest,Rest,37,27
+2026-10-18,34,Messaging,Phone,12,3
+2026-10-18,35,Walking,Travel,24,19
+2026-10-19,36,Planning,Study,11,29
+2026-10-19,37,Conversation,Social,18,28
+2026-10-19,38,Queueing,Waiting,5,9
+2026-10-19,39,Work on a project,Study,40,45
+2026-10-19,40,Music,Rest,27,14
+2026-10-20,41,Studying,Study,24,64
+2026-10-20,42,Phone scrolling,Phone,26,3
+2026-10-20,43,Travelling,Travel,31,46
+2026-10-20,44,Talking with friends,Social,28,15
+2026-10-20,45,Waiting,Waiting,5,29
+2026-10-21,46,Church / volunteering,Church,47,33
+2026-10-21,47,Eating,Daily,12,17
+2026-10-21,48,Getting ready,Daily,14,26
+2026-10-21,49,Watching videos,Phone,36,20
+2026-10-21,50,Household tasks,Daily,16,39
+2026-10-22,51,Lecture / class,Study,55,63
+2026-10-22,52,Reading,Study,15,32
+2026-10-22,53,Break / rest,Rest,32,26
+2026-10-22,54,Messaging,Phone,7,18
+2026-10-22,55,Walking,Travel,19,18
+2026-10-23,56,Planning,Study,23,28
+2026-10-23,57,Conversation,Social,13,27
+2026-10-23,58,Queueing,Waiting,13,8
+2026-10-23,59,Work on a project,Study,35,44
+2026-10-23,60,Music,Rest,22,13
+2026-10-24,61,Studying,Study,19,63
+2026-10-24,62,Phone scrolling,Phone,21,3
+2026-10-24,63,Travelling,Travel,43,45
+2026-10-24,64,Talking with friends,Social,23,14
+2026-10-24,65,Waiting,Waiting,15,28
+2026-10-25,66,Church / volunteering,Church,42,32
+2026-10-25,67,Eating,Daily,24,16
+2026-10-25,68,Getting ready,Daily,9,25
+2026-10-25,69,Watching videos,Phone,31,19
+2026-10-25,70,Household tasks,Daily,28,38
+2026-10-26,71,Lecture / class,Study,50,62
+2026-10-26,72,Reading,Study,27,31
+2026-10-26,73,Break / rest,Rest,27,25
+2026-10-26,74,Messaging,Phone,19,17
+2026-10-26,75,Walking,Travel,14,17
+2026-10-27,76,Planning,Study,18,27
+2026-10-27,77,Conversation,Social,8,26
+2026-10-27,78,Queueing,Waiting,8,28
+2026-10-27,79,Work on a project,Study,47,43
+2026-10-27,80,Music,Rest,17,12
+2026-10-28,81,Studying,Study,31,62
+2026-10-28,82,Phone scrolling,Phone,16,3
+2026-10-28,83,Travelling,Travel,38,44
+2026-10-28,84,Talking with friends,Social,18,13
+2026-10-28,85,Waiting,Waiting,10,27
+2026-10-29,86,Church / volunteering,Church,37,31
+2026-10-29,87,Eating,Daily,19,15
+2026-10-29,88,Getting ready,Daily,21,24
+2026-10-29,89,Watching videos,Phone,26,18
+2026-10-29,90,Household tasks,Daily,23,37
+2026-10-30,91,Lecture / class,Study,45,61
+2026-10-30,92,Reading,Study,22,30
+2026-10-30,93,Break / rest,Rest,22,24
+2026-10-30,94,Messaging,Phone,14,16
+2026-10-30,95,Walking,Travel,26,16
+2026-10-31,96,Planning,Study,13,26
+2026-10-31,97,Conversation,Social,20,25
+2026-10-31,98,Queueing,Waiting,5,27
+2026-10-31,99,Work on a project,Study,42,42
+2026-10-31,100,Music,Rest,12,11
